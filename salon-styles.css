@@ -9,10 +9,9 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 2;
-  display: grid;
-  grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 25% 25% 50%;
 }
+
+
 
 /* Links inside the navbar */
 .navbar a {
@@ -30,40 +29,30 @@
   color: black;
 }
 
-.searchbar{
-  display: grid;
-  grid-column: 1/4;
-  grid-row: 2/3;
+.navbar{
+  background-color: rgb(187,195,186);
 }
-
 .promo-bar{
   background-color: rgb(22,94,49);
   top: 0px;
-  display: grid;
-  grid-column: 1/4;
-  grid-row: 1/2;
-}
-.promo-bar a{
-  color: white;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  text-decoration: none;
-}
-
-.searchbar{
-  background-color: (187,195,186);
-}
-
-.searchbar a{
-  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 
 .logonav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(38,38,38);
 }
 
-.logonav a{
+a{
   color: white;
+  text-decoration: none;
 }
 
 
