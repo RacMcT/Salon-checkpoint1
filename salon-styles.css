@@ -129,6 +129,7 @@
 /* Services Image Gallery Section */
   .services-container{
     background-color: black;
+    padding-top: 2px;
   }
   
   .services-container h1{
@@ -176,6 +177,7 @@
 
   .balanced h3{
     color: white;
+
   }
 
   .balanced p{
@@ -185,11 +187,22 @@
    /* Confidence Section */
 
    .confidence{
-     background-color: rgb(241,229,177);
+    background-color: rgb(241,229,177);
+    padding-left: 20%;
+    padding-bottom: 2px;
+    padding-top: 2px;
    }
 
    /* Footer */
 
    footer{
-     background-color: black;
+     background-color: rgb(43,43,43);
+   }
+
+   footer p{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 4%;
    }
