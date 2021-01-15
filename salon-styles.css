@@ -111,7 +111,85 @@
 .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
 
 
-/* Main content */
+
+
+/* Main Content */
 .main {
   margin-top: 100px; /* Add top margin to avoid content overlay */
 }
+
+
+/* Hero Image */
+
+.hero-img{
+  width: 100%;
+  height: auto;
+  }
+  
+/* Services Image Gallery Section */
+  .services-container{
+    background-color: black;
+  }
+  
+  .services-container h1{
+    color: white;
+    text-align: center;
+  }
+  
+  .services-container p{
+    color: white;
+    text-align: center;
+  }
+
+  /* Job Posting Section */
+  .job-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .job-post h2{
+  color: rgb(141,36,36);
+  }
+  
+  .job-ad{
+    width: 20%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  /* Balanced Section */
+
+  .balanced{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cocktail{
+    width: 15%;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 25px;
+  }
+
+  .balanced h3{
+    color: white;
+  }
+
+  .balanced p{
+    color: rgb(134,64,174);
+  }
+
+   /* Confidence Section */
+
+   .confidence{
+     background-color: rgb(241,229,177);
+   }
+
+   /* Footer */
+
+   footer{
+     background-color: black;
+   }
