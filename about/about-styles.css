@@ -116,33 +116,67 @@
 
 /* Main Content */
 .main {
-  margin-top: 100px; /* Add top margin to avoid content overlay */
-}
+  margin-top: 100px; /* Add top margin to avoid content overlay */}
+  
 
 .block1{
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3%;
 }
+  
+
 
 /* Hero Image */
 .about-hero-img{width: 70%;}
 
 .block1 h1{
   color: white;
-  text-align: center;}
+  text-align: center;
+}
 
-.block1 p{color: white;}
+.block1 p{color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
-.block1 .blk1-p{width: 70%;}
 
 .block2{
+  background-color: rgb(162,142,79);
+  padding-bottom: 3%;
+  padding-top: 1%;
 
 }
 
-.block3{
+.block2 p{
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
+
+.block2 a{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+  cursor: pointer;
+}
+
+.block3{
+  background-color: rgb(241,229,177);
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+
+.block3 h2{
+  text-align: center;
+}
+
+.block3 p{
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 
