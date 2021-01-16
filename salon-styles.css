@@ -259,6 +259,18 @@
     height: auto;
     padding-bottom: 20px;
   }
+
+  .ad-img-txt{
+    position: relative;
+    text-align: center;
+  }
+
+  .logo{
+    width: 2%;
+    height: auto;
+  }
+ 
+
   
   /* Balanced Section */
 
@@ -278,11 +290,16 @@
 
   .balanced h3{
     color: white;
-
   }
 
   .balanced p{
     color: rgb(134,64,174);
+  }
+
+  .balanced a{
+    cursor: pointer;
+    color: white;
+    padding-bottom: 2%;
   }
 
    /* Confidence Section */
