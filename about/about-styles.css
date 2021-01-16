@@ -113,14 +113,37 @@
 .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
 
 
+
 /* Main Content */
 .main {
   margin-top: 100px; /* Add top margin to avoid content overlay */
 }
 
+.block1{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/* Hero Image */
+.about-hero-img{width: 70%;}
 
+.block1 h1{
+  color: white;
+  text-align: center;}
 
+.block1 p{color: white;}
+
+.block1 .blk1-p{width: 70%;}
+
+.block2{
+
+}
+
+.block3{
+
+}
 
 
 /* Footer */
