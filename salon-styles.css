@@ -2,7 +2,6 @@
 .nav {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -15,6 +14,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Change background on mouse-over */
@@ -56,6 +56,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  cursor: pointer;
 }
 
 /* Change color of dropdown links on hover */
@@ -99,6 +100,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  cursor: pointer;
 }
 
 /* Change color of dropdown links on hover */
@@ -109,7 +111,6 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
-
 
 
 
@@ -141,6 +142,106 @@
     color: white;
     text-align: center;
   }
+
+
+  .services-gallery{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: repeat(2, 400px);
+  }
+  
+  .img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("images/waxing.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("images/hair-cut.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url("images/braids.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("images/eyelash.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("images/facial.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url("images/dread-loc.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .overlay{
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    height: 100%;
+    width: 100%;
+    cursor: pointer; /* Add a pointer on hover */
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInUp (3sec 1);
+  }
+  
+  .img1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .img2:hover .overlay {
+    opacity: 1;}
+  
+  .img3:hover .overlay{
+    opacity: 1;
+  }
+  
+  .img4:hover .overlay{
+    opacity: 1;
+  }
+  
+  .img5:hover .overlay{
+    opacity: 1;
+  }
+  
+  .img6:hover .overlay{
+    opacity: 1;
+  }
+
+  .overlay a{
+    color: white;
+    font-size: 20px;
+    
+  }
+
+
 
   /* Job Posting Section */
   .job-post{
