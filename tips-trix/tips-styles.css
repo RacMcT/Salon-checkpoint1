@@ -117,12 +117,55 @@
 /* Main Content */
 main {
   margin-top: 100px; /* Add top margin to avoid content overlay */
+  width: 70%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: grid;
   grid-template-columns: 70% 30%;
   grid-template-rows: repeat(20 100px);
-
+  column-gap: 5%;
 }
 
+.posts{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.info{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.archive{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.categories{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.social1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.post-cont1{
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tips-pic1{
+  width: 50%;
+  height: auto;
+}
 
 
 

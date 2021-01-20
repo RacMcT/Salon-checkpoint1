@@ -1,0 +1,19 @@
+.menu-default{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
+}
+
+.menu-default a{
+  text-decoration: none;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 7px;
+  margin-right: 40px;
+}
