@@ -1,5 +1,6 @@
 body{
   margin:0;
+  font-family: 'Lato', sans-serif;
 }
 
 /* The navigation bar */
@@ -60,6 +61,7 @@ body{
   z-index: 1000;
   list-style: none;
   top: 46px;
+  opacity: 0.8;
 }
 
 /* Links inside the dropdown */
@@ -72,48 +74,14 @@ body{
   cursor: pointer;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: flex; flex-direction: column;}
-
-/* Services Dropdown Button */
-.dropbtn2 {
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown2 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content2 {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  list-style: none;
-}
-
-/* Links inside the dropdown */
-.dropdown-content2 a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
+.nav a:hover{
+  border-bottom: 2px solid black;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown2:hover .dropdown-content2 {display: flex; flex-direction: column;}
-
+.dropdown:hover .dropdown-content {
+  display: flex; flex-direction: column;
+}
 
 
 
@@ -133,20 +101,25 @@ body{
   }
   
 /* Services Image Gallery Section */
+
+.services-container h1{
+  font-size: xxx-large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.services-container p{
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
   .services-container{
     background-color: black;
-    padding-top: 2px;
+    padding: 5%;
   }
   
-  .services-container h1{
-    color: white;
-    text-align: center;
-  }
-  
-  .services-container p{
-    color: white;
-    text-align: center;
-  }
+ 
 
   .services-gallery{
     display: grid;
@@ -207,13 +180,11 @@ body{
     height: 100%;
     width: 100%;
     cursor: pointer; /* Add a pointer on hover */
-    transition: .5s ease;
     opacity: 0;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: fadeInUp (3sec 1);
   }
   
   .img1:hover .overlay {
@@ -242,7 +213,7 @@ body{
   .overlay a{
     color: white;
     font-size: 20px;
-    
+    transition: margin 200ms ease-in-out;
   }
 
 
@@ -328,3 +299,14 @@ body{
      align-items: center;
      padding: 4%;
    }
+
+   @keyframes fadeInUp{
+    from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
