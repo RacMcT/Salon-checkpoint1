@@ -326,7 +326,8 @@ body{
 
 /*Responsive Hamburger Menu */
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
@@ -335,7 +336,8 @@ body{
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .nav.responsive {position: relative;}
   .nav.responsive a.icon {
