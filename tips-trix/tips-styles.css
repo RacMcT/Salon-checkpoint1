@@ -1,3 +1,8 @@
+body{
+  margin:0;
+  font-family: 'Lato', sans-serif;
+}
+
 /* Hide hamburger link that should open and close the nav on small screens */
 .nav .icon {
   display: none;
@@ -112,7 +117,7 @@ main {
   padding-right: 10%;
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: repeat(30, 100px);
+  grid-template-rows: repeat(31, 100px);
   column-gap: 5%;
 }
 
@@ -123,7 +128,7 @@ a{
 .posts{
   display: grid;
   grid-column: 1/2;
-  grid-row: 1/30;
+  grid-row: 1/31;
 }
 
 .info{

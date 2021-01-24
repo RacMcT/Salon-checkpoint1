@@ -1,3 +1,8 @@
+body{
+  margin:0;
+  font-family: 'Lato', sans-serif;
+}
+
 /* Hide hamburger link that should open and close the nav on small screens */
 .nav .icon {
   display: none;
