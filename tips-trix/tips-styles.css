@@ -302,3 +302,27 @@ footer p{
     position: relative; 
   }
 }
+
+
+@media screen and (max-width: 768px){
+main{
+  display: flex;
+  flex-direction: column;
+}
+.posts{
+  display: flex;
+  flex-direction: column;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.archive{
+  display: flex;
+  flex-direction: column;
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+}
+}
