@@ -112,52 +112,152 @@ main {
   padding-right: 10%;
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: repeat(20 100px);
+  grid-template-rows: repeat(30, 100px);
   column-gap: 5%;
 }
 
+a{
+  cursor: pointer;
+}
+
 .posts{
+  display: grid;
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 1/30;
 }
 
 .info{
+  display: grid;
   grid-column: 2/3;
   grid-row: 1/2;
+  padding-left: 25%;
 }
 
 .archive{
+  display: grid;
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 3/6;
+  padding-left: 25%;
 }
 
 .categories{
+  display: grid;
   grid-column: 2/3;
-  grid-row: 4/5;
+  grid-row: 7/7;
+  padding-left: 25%;
+}
+
+.post1{
+  display: flex;
+  flex-direction: column;
 }
 
 .social1{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .post-cont1{
   display: flex;
   flex-direction: column;
+  align-items:center;
 }
 
 .social-links1{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-bottom: 3%;
 }
 .tips-pic1{
+  width: 70%;
+  height: auto;
+}
+
+.post2{
+  display: flex;
+  flex-direction: column;
+}
+
+.social2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-cont2{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.social-links2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+.tips-pic2{
   width: 50%;
   height: auto;
 }
 
+.post3{
+  display: flex;
+  flex-direction: column;
+}
 
+.social3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-cont3{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.social-links3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+.tips-pic3{
+  width: 50%;
+  height: auto;
+}
+
+.post4{
+  display: flex;
+  flex-direction: column;
+}
+
+.social4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-cont4{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.social-links4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+.tips-pic4{
+  width: 50%;
+  height: auto;
+}
 
  /* Footer */
 
