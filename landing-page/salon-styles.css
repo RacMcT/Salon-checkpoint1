@@ -171,7 +171,7 @@ body{
   .img1{
     grid-column: 1/2;
     grid-row: 1/2;
-    background-image: url("images/waxing.jpg");
+    background-image: url("/images/waxing.jpg");
     background-size: cover;
     position: relative;
   }
@@ -179,7 +179,7 @@ body{
   .img2{
     grid-column: 2/3;
     grid-row: 1/2;
-    background-image: url("images/hair-cut.jpg");
+    background-image: url("/images/hair-cut.jpg");
     background-size: cover;
     position: relative;
   }
@@ -187,7 +187,7 @@ body{
   .img3{
     grid-column: 3/4;
     grid-row: 1/2;
-    background-image: url("images/braids.jpg");
+    background-image: url("/images/braids.jpg");
     background-size: cover;
     position: relative;
   }
@@ -195,7 +195,7 @@ body{
   .img4{
     grid-column: 1/2;
     grid-row: 2/3;
-    background-image: url("images/eyelash.jpg");
+    background-image: url("/images/eyelash.jpg");
     background-size: cover;
     position: relative;
   }
@@ -203,7 +203,7 @@ body{
   .img5{
     grid-column: 2/3;
     grid-row: 2/3;
-    background-image: url("images/facial.jpg");
+    background-image: url("/images/facial.jpg");
     background-size: cover;
     position: relative;
   }
@@ -211,7 +211,7 @@ body{
   .img6{
     grid-column: 3/4;
     grid-row: 2/3;
-    background-image: url("images/dread-loc.jpg");
+    background-image: url("/images/dread-loc.jpg");
     background-size: cover;
     position: relative;
   }
