@@ -13,6 +13,7 @@ body{
 .nav {
   background-color:black;
   overflow: hidden;
+  border-top: solid gray 1px;
 }
 /* Style the links inside the navigation bar */
 .nav ul {
