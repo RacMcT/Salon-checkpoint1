@@ -1,0 +1,430 @@
+body{
+  margin:0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Hide hamburger link that should open and close the nav on small screens */
+.nav .icon {
+  display: none;
+  color:black
+}
+
+/* BASIC STYLES */
+
+/* Add a black background color to the top navigation */
+.nav {
+  background-color:black;
+  overflow: hidden;
+  border-top: solid gray 1px;
+}
+
+
+/* Style the links inside the navigation bar */
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: flex;
+  flex-direction: column;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+.nav li:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color:rgb(255,255,255);
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.nav .icon {
+  display: none;
+}
+
+
+/* The navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: rgb(255,255,255);
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+/* Links inside the navbar */
+.nav li a {
+  display: flex;
+  flex-direction: column;
+  color: #666666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Change background on mouse-over */
+.nav li a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Dropdown Toggle for Nav Bar (2 total) */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+  list-style: none;
+  top: 46px;
+  opacity: 0.8;
+}
+
+/* Links inside the dropdown */
+.dropdown-content li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav li a:hover{
+  border-bottom: 2px solid black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Hero Image */
+
+.hero-img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+  }
+  
+/* Services Image Gallery Section */
+
+.services-container h1{
+  font-size: xxx-large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.services-container p{
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+  .services-container{
+    background-color: black;
+    padding: 5%;
+  }
+  
+  .services-gallery{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: repeat(2, 400px);
+  }
+  
+  .img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("/images/waxing.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("/images/hair-cut.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url("/images/braids.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("/images/eyelash.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("/images/facial.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url("/images/dread-loc.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .overlay{
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    height: 100%;
+    width: 100%;
+    cursor: pointer; /* Add a pointer on hover */
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .img2:hover .overlay {
+    opacity: 1;}
+  
+  .img3:hover .overlay{
+    opacity: 1;
+  }
+  
+  .img4:hover .overlay{
+    opacity: 1;
+  }
+  
+  .img5:hover .overlay{
+    opacity: 1;
+  }
+  
+  .img6:hover .overlay{
+    opacity: 1;
+  }
+
+  .overlay a{
+    color: white;
+    font-size: 20px;
+    transition: margin 200ms ease-in-out;
+  }
+
+
+
+  /* Job Posting Section */
+  .job-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .job-post h2{
+  color: rgb(141,36,36);
+  }
+  
+  .job-ad{
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .ad-img-txt{
+    position: relative;
+    text-align: center;
+  }
+
+  .logo{
+    width: 2%;
+    height: auto;
+  }
+ 
+
+  
+  /* Balanced Section */
+
+  .balanced{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cocktail{
+    width: 15%;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 25px;
+  }
+
+  .balanced h3{
+    color: white;
+  }
+
+  .balanced p{
+    color: rgb(134,64,174);
+  }
+
+  .balanced a{
+    cursor: pointer;
+    color: white;
+    padding-bottom: 2%;
+  }
+
+   /* Confidence Section */
+
+   .confidence{
+    background-color: rgb(241,229,177);
+    padding-left: 20%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+   }
+
+   /* Footer */
+
+   footer{
+     background-color: rgb(43,43,43);
+   }
+
+   footer p{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 4%;
+   }
+
+   @keyframes fadeInUp{
+    from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+/* Responsive Layout for Break-Points */
+
+@media screen and (max-width: 600px) {
+  .nav ul li:not(:first-child) {
+    display: none;
+  }
+  .nav ul li.icon {
+    float: right;
+    display: block;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive ul li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .services-gallery{
+    display: flex;
+    flex-direction: column;}
+  .overlay{
+    justify-content: center;}
+  .img1{
+    width: auto;
+    height: 600px;}
+  .img2{width: auto;
+    height: 600px;}
+  .img3{width: auto;
+    height: 600px;}
+  .img4{width: auto;
+    height: 600px;}
+  .img5{width: auto;
+    height: 600px;}
+  .img6{width: auto;
+    height: 600px;}
+  .img7{width: auto;
+    height: 600px;}
+  .img8{width: auto;
+    height: 600px;}
+}
+
+@media screen and (max-width: 360px){
+.img1{width: auto;
+  height: 200px;}
+.img2{width: auto;
+  height: 200px;}
+.img3{ width: auto;
+  height: 200px;}
+.img4{width: auto;
+  height: 200px;}
+.img5{width: auto;
+  height: 200px;}
+.img6{width: auto;
+  height: 200px;}
+.img7{width: auto;
+  height: 200px;}
+.img8{width: auto;
+  height: 200px;}
+}
